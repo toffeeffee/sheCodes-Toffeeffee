@@ -1,0 +1,80 @@
+body {
+  margin: 20px auto;
+  width: 1200px;
+}
+h1 {
+  color: blue;
+  font-size: 72px;
+  font-weight: 800;
+}
+.temp {
+  color: blue;
+  font-size: 64px;
+  font-weight: 600;
+}
+.unit {
+  position: relative;
+  top: -30px;
+}
+h3 {
+  color: blue;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 10px 25px;
+}
+form {
+  text-align: center;
+  margin: 20px auto;
+}
+.formcity {
+  border: 2px solid rgb(15, 163, 153);
+  border-radius: 25px;
+  color: rgb(15, 163, 153);
+  padding: 5px 17px;
+  width: 400px;
+}
+.btnsearch {
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  color: rgb(15, 163, 153);
+  font-size: 36px;
+  width: 150px;
+  text-align: center;
+  margin: 0 20px;
+}
+.btnsearch:hover {
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  color: rgb(15, 163, 153);
+  font-weight: 600;
+}
+.sun {
+  color: orange;
+  font-size: 120px;
+  text-align: center;
+}
+.dat,
+.hightemp {
+  font-size: 25px;
+  font-weight: 500;
+  color: grey;
+}
+.lowtemp {
+  font-size: 25px;
+  font-weight: 300;
+  color: grey;
+}
+.icon {
+  color: orange;
+  font-size: 50px;
+  text-align: center;
+  margin: 40px auto;
+}
+.icon2 {
+  color: rgb(113, 114, 180);
+  font-size: 50px;
+  text-align: center;
+  margin: 40px auto;
+}
