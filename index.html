@@ -38,58 +38,69 @@
       <button
         id="submit-search"
         type="submit"
-        class="btnsearch btn btn-primary"
+        class="btnsearch btn"
       >
         Search
       </button>
     </form>
     <div class="row d-flex justify-content-around align-items-center mb-5">
       <div class="col-4 row">
-        <i class="col-6 fas fa-regular fa-sun sun"></i>
-        <h1 class="col-6">
-          Kiyv
-        </h1>
+		<div class="col-6">
+		<img src="" alt="Clear" id="icon" style="width:180px; height:auto;"/>	
+         <!--  <i class="fas fa-regular fa-sun sun"></i> -->
+		</div>
+		<div class="col-6">
+			<h1>
+				Kiyv
+			</h1>
+			<h4 id="today">
+				11 august<br />
+				thurthday
+			</h4>
+		</div>
       </div>
+	  
       <div class="col-4">
-        <h2 class="col-6">
-          <span id="temp" class="temp">25</span
-          ><span class="unit">
-            <a href="#" id="celc">°C</a> |<a href="#" id="faran">°F</a></span
-          >
-        </h2>
-        <h3 id="today">
-          11 august<br />
-          thurthday
+        <h3>
+          <span id="temp" class="temp">25</span>
+			<span class="unit">
+            <a href="#" id="celc">°C</a> |<a href="#" id="faran">°F</a></span>
         </h3>
+        <h4>
+          Wind <span id="wind">10</span> m/h
+        </h4>
+		<h4 id="weather">
+          Clouds
+        </h4>
       </div>
     </div>
     <div class="row d-flex justify-content-around mt-5 pt-5">
       <div class="col-2">
-        <div class="dat">12.08</div>
+        <div class="dat" id="dat1">12.08</div>
         <i class="fas fa-regular fa-sun icon"></i>
         <div class="hightemp">+26 C</div>
         <div class="lowtemp">+20 C</div>
       </div>
       <div class="col-2">
-        <div class="dat">12.08</div>
+        <div class="dat" id="dat2">12.08</div>
         <i class="fas fa-duotone fa-cloud-bolt icon2"></i>
         <div class="hightemp">+26 C</div>
         <div class="lowtemp">+20 C</div>
       </div>
       <div class="col-2">
-        <div class="dat">12.08</div>
+        <div class="dat" id="dat3">12.08</div>
         <i class="fas fa-duotone fa-cloud-sun icon2"></i>
         <div class="hightemp">+26 C</div>
         <div class="lowtemp">+20 C</div>
       </div>
       <div class="col-2">
-        <div class="dat">12.08</div>
+        <div class="dat" id="dat4">12.08</div>
         <i class="fas fa-duotone fa-cloud-sun icon2"></i>
         <div class="hightemp">+26 C</div>
         <div class="lowtemp">+20 C</div>
       </div>
       <div class="col-2">
-        <div class="dat">12.08</div>
+        <div class="dat" id="dat5">12.08</div>
         <i class="fas fa-regular fa-sun icon"></i>
         <div class="hightemp">+26 C</div>
         <div class="lowtemp">+20 C</div>
