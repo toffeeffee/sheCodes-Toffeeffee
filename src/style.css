@@ -20,8 +20,11 @@ h3 {
   color: blue;
   font-size: 36px;
   font-weight: 600;
-  margin: 10px 25px;
+  /* margin: 10px 25px; */
 }
+/* h4{ */
+  /* margin: 10px 25px;	 */
+/* } */
 form {
   text-align: center;
   margin: 20px auto;
@@ -43,12 +46,15 @@ form {
   text-align: center;
   margin: 0 20px;
 }
-.btnsearch:hover {
+.btnsearch:hover, .btnsearch:focus, .btnsearch:active{
   background-color: transparent;
   border: 2px solid transparent;
   border-radius: 25px;
   color: rgb(15, 163, 153);
   font-weight: 600;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+  border: 2px solid transparent;
 }
 .sun {
   color: orange;
